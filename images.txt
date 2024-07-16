@@ -12,3 +12,4 @@ continuumio/anaconda3:2024.02-1
 containrrr/watchtower
 
 xiaoyaliu/alist:hostmode
+xiaoyaliu/alist:latest
