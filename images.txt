@@ -2,7 +2,7 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alis
+#--platform=linux/arm64 xiaoyaliu/alist
 
 ollama/ollama:latest
 ghcr.io/open-webui/open-webui:latest
@@ -12,4 +12,4 @@ continuumio/anaconda3:2024.02-1
 containrrr/watchtower
 
 #xiaoyaliu/alist:hostmode
-xiaoyaliu/alist:latest
+--platform=linux/arm64 xiaoyaliu/alist:latest
