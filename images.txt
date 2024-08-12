@@ -9,10 +9,10 @@ ghcr.io/open-webui/open-webui:latest
 memgpt/memgpt-server:latest
 ubuntu:latest
 continuumio/anaconda3:2024.02-1
-containrrr/watchtower
+#containrrr/watchtower
 
 #xiaoyaliu/alist:hostmode
---platform=linux/aarch64 xiaoyaliu/alist:latest
+#--platform=linux/aarch64 xiaoyaliu/alist:latest
 
 
 lordalfred/docker-torch-rnn:10.0-ubuntu18.0
