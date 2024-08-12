@@ -13,3 +13,6 @@ containrrr/watchtower
 
 #xiaoyaliu/alist:hostmode
 --platform=linux/aarch64 xiaoyaliu/alist:latest
+
+
+lordalfred/docker-torch-rnn:10.0-ubuntu18.0
