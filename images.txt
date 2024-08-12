@@ -15,5 +15,5 @@ continuumio/anaconda3:2024.02-1
 #--platform=linux/aarch64 xiaoyaliu/alist:latest
 
 
-crisbal/torch-rnn
+crisbal/torch-rnn:cuda7.5
 #nvidia/cuda
