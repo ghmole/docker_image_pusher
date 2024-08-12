@@ -15,5 +15,5 @@ continuumio/anaconda3:2024.02-1
 #--platform=linux/aarch64 xiaoyaliu/alist:latest
 
 
-#lordalfred/docker-torch-rnn:10.0-ubuntu18.04
-nvidia/cuda
+crisbal/torch-rnn
+#nvidia/cuda
