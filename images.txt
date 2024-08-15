@@ -5,6 +5,7 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 
 ollama/ollama:latest
+apache/tika
 #ghcr.io/open-webui/open-webui:main
 memgpt/memgpt-server:latest
 ubuntu:latest
