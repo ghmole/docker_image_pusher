@@ -24,5 +24,7 @@ pytorch/pytorch:1.9.0-cuda10.2-cudnn7-devel
 mysql:5.7.18
 redis:7.2.4
 infiniflow/ragflow:dev
+infiniflow/ragflow-base:v2.0
+
 
 neo4j:5.22.0
