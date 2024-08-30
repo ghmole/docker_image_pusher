@@ -27,5 +27,5 @@ infiniflow/ragflow-base:v2.0
 neo4j:5.22.0
 
 # image related
-bgremover:latest
-imaginairy:latest
+mhmmdlkts/bgremover:latest
+gerobu/imaginairy:latest
