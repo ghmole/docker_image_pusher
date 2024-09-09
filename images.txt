@@ -28,4 +28,4 @@ neo4j:5.22.0
 
 # image related
 #mhmmdlkts/bgremover:latest
-gerobu/imaginairy:latest
+#gerobu/imaginairy:latest
