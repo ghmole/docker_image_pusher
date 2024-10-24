@@ -5,6 +5,7 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 
 ollama/ollama:latest
+
 apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
 memgpt/memgpt-server:latest
@@ -29,6 +30,9 @@ neo4j:5.22.0
 # image related
 #mhmmdlkts/bgremover:latest
 #gerobu/imaginairy:latest
+
+# nvidia ollama
+dustynv/ollama:r36.2.0
 
 
 # vllm
