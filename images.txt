@@ -4,11 +4,11 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-ollama/ollama:latest
+#ollama/ollama:latest
 
-apache/tika:latest-full
+#apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
-memgpt/memgpt-server:latest
+#memgpt/memgpt-server:latest
 ubuntu:latest
 continuumio/anaconda3:2024.02-1
 #containrrr/watchtower
@@ -16,14 +16,14 @@ continuumio/anaconda3:2024.02-1
 #xiaoyaliu/alist:hostmode
 #--platform=linux/aarch64 xiaoyaliu/alist:latest
 
-pytorch/pytorch:1.9.0-cuda10.2-cudnn7-devel
+#pytorch/pytorch:1.9.0-cuda10.2-cudnn7-devel
 #nvidia/cuda
 
 # ragflow images
 mysql:5.7.18
 redis:7.2.4
-infiniflow/ragflow:dev
-infiniflow/ragflow-base:v2.0
+#infiniflow/ragflow:dev
+#infiniflow/ragflow-base:v2.0
 
 neo4j:5.22.0
 
@@ -36,4 +36,4 @@ dustynv/ollama:r36.2.0
 
 
 # vllm
-vllm/vllm-openai:latest
+#vllm/vllm-openai:latest
