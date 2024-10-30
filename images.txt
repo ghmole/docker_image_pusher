@@ -32,7 +32,7 @@ neo4j:5.22.0
 #gerobu/imaginairy:latest
 
 # nvidia ollama
-dustynv/ollama:r36.2.0
+dustynv/ollama:r36.3.0
 
 
 # vllm
