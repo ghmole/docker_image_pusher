@@ -4,10 +4,10 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-#ollama/ollama:latest
+ollama/ollama:latest
 
 #apache/tika:latest-full
-#ghcr.io/open-webui/open-webui:main
+ghcr.io/open-webui/open-webui:main
 #memgpt/memgpt-server:latest
 ubuntu:latest
 continuumio/anaconda3:2024.02-1
