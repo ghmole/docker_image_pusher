@@ -4,13 +4,17 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
+# x86 ollama
 ollama/ollama:latest
 
-#apache/tika:latest-full
+# nvidia ollama for jetson orin
+dustynv/ollama:r36.3.0
+
+apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
 #memgpt/memgpt-server:latest
 ubuntu:latest
-continuumio/anaconda3:2024.02-1
+#continuumio/anaconda3:2024.02-1
 #containrrr/watchtower
 
 #xiaoyaliu/alist:hostmode
@@ -20,19 +24,18 @@ continuumio/anaconda3:2024.02-1
 #nvidia/cuda
 
 # ragflow images
-mysql:5.7.18
-redis:7.2.4
+#mysql:5.7.18
+#redis:7.2.4
 #infiniflow/ragflow:dev
 #infiniflow/ragflow-base:v2.0
 
-neo4j:5.22.0
+#neo4j:5.22.0
 
 # image related
 #mhmmdlkts/bgremover:latest
 #gerobu/imaginairy:latest
 
-# nvidia ollama
-dustynv/ollama:r36.3.0
+
 
 
 # vllm
