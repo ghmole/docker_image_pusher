@@ -6,16 +6,17 @@
 
 # x86 ollama
 ollama/ollama:latest
-dustynv/nano_llm:r36.3.0
-dustynv/nanodb:r36.2.0 
-dustynv/llama-index:samples-r36.2.0 
-
+# nvidia ollama for jetson orin
+#dustynv/nano_llm:r36.3.0
+#dustynv/nanodb:r36.2.0 
+#dustynv/llama-index:samples-r36.2.0 
+#dustynv/ollama:r36.3.0
 meta-llama/Llama-3.2-11B-Vision
 
-# nvidia ollama for jetson orin
-dustynv/ollama:r36.3.0
 
-apache/tika:latest-full
+
+
+#apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
 #memgpt/memgpt-server:latest
 ubuntu:latest
