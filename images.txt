@@ -8,7 +8,7 @@
 ollama/ollama:latest
 dustynv/nano_llm:r36.3.0
 dustynv/nanodb:r36.2.0 
-dustynv/llama-index:samples-r36.2.0 (
+dustynv/llama-index:samples-r36.2.0 
 
 meta-llama/Llama-3.2-11B-Vision
 
