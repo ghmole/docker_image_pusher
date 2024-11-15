@@ -11,7 +11,7 @@ ollama/ollama:latest
 #dustynv/nanodb:r36.2.0 
 #dustynv/llama-index:samples-r36.2.0 
 #dustynv/ollama:r36.3.0
-meta-llama/Llama-3.2-11B-Vision
+meta-llama/llama-3.2-11b-vision
 
 
 
