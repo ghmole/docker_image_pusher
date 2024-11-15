@@ -7,11 +7,11 @@
 # x86 ollama
 ollama/ollama:latest
 # nvidia ollama for jetson orin
-#dustynv/nano_llm:r36.3.0
-#dustynv/nanodb:r36.2.0 
-#dustynv/llama-index:samples-r36.2.0 
-#dustynv/ollama:r36.3.0
-meta-llama/llama-3.2-11b-vision
+dustynv/nano_llm:r36.3.0
+dustynv/nanodb:r36.3.0 
+dustynv/llama-index:samples-r36.2.0 
+dustynv/ollama:r36.3.0
+ 
 
 
 
