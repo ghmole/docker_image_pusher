@@ -12,7 +12,7 @@ dustynv/nanodb:r36.2.0
 dustynv/llama-index:samples-r36.2.0 
 dustynv/ollama:r36.3.0 
 #apache/tika:latest-full
-# ghcr.io/open-webui/open-webui:main
+ghcr.io/open-webui/open-webui:main
 #memgpt/memgpt-server:latest
 ubuntu:latest
 #continuumio/anaconda3:2024.02-1
