@@ -39,7 +39,11 @@ ubuntu:latest
 #mhmmdlkts/bgremover:latest
 #gerobu/imaginairy:latest
 
+#  searxng
+docker.io/searxng/searxng:latest
+docker.io/library/caddy:2-alpine
 
+docker.io/valkey/valkey:8-alpine
 
 
 # vllm
