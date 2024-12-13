@@ -50,3 +50,6 @@ alpine:3.20
 
 # vllm
 #vllm/vllm-openai:latest
+
+#graphrag test
+microsoft/graphrag
