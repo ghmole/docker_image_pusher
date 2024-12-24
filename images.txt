@@ -5,7 +5,7 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-dustynv/llama-vision:r36.4.0
+dustynv/llama-vision:r36.3.0
 --platform=linux/arm64 ubuntu:22.04
 # x86 ollama
 ollama/ollama:latest
