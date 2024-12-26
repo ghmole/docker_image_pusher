@@ -42,6 +42,7 @@ continuumio/anaconda3:2024.02-1
 # ragflow images
 mysql:5.7.18
 redis:7.2.4
+infiniflow/ragflow_deps:latest
 #infiniflow/ragflow:dev
 #infiniflow/ragflow-base:v2.0
 
