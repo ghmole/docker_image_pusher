@@ -4,14 +4,18 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-
-#ubuntu
---platform=linux/arm64 ubuntu:22.04
-ubuntu:latest
---platform=linux/amd64 ubuntu:22.04
-
 # x86 ollama
 ollama/ollama:latest
+apache/tika:latest-full
+ghcr.io/open-webui/open-webui:main
+
+#ubuntu
+ubuntu:latest
+--platform=linux/arm64 ubuntu:22.04
+
+--platform=linux/amd64 ubuntu:22.04
+
+
 # nvidia ollama for jetson orin
 
 dustynv/nanodb:r36.2.0 
@@ -25,8 +29,7 @@ dustynv/nano_llm:24.7-r36.2.0
 
 
 
-apache/tika:latest-full
-ghcr.io/open-webui/open-webui:main
+
 
 #memgpt/memgpt-server:latest
 
