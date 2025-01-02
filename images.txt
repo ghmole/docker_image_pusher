@@ -7,7 +7,7 @@
 # x86 ollama
 ollama/ollama:latest
 
-dustynv/ollama:0.5.4-r36.4.0
+dustynv/ollama:0.5.2-r36.4.0
 
 apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
