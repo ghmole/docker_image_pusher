@@ -9,7 +9,7 @@ ollama/ollama:latest
 
 dustynv/ollama:0.5.1-r36.4.0
 
-localai/localai:latest-gpu-nvidia-cuda-12
+localai/localai:latest
 
 apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
