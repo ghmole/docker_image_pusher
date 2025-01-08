@@ -1,3 +1,6 @@
+# test part
+localai/localai
+
 #nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
@@ -9,9 +12,7 @@ ollama/ollama:latest
 
 dustynv/ollama:0.5.1-r36.4.0
 
-localai/localai:latest
-
-apache/tika:latest-full
+#apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
 
 #ubuntu
