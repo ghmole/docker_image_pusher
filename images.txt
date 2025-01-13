@@ -1,5 +1,5 @@
 # test part
-quay.io/go-skynet/local-ai:latest-gpu-nvidia-cuda-12
+quay.io/go-skynet/local-ai:latest
 
 #nginx
 #支持私库
