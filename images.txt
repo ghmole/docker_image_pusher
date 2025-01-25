@@ -1,5 +1,7 @@
 # test part
-quay.io/go-skynet/local-ai:latest
+#quay.io/go-skynet/local-ai:latest
+quay.io/go-skynet/local-ai:localai:latest-aio-gpu-nvidia-cuda-12
+
 
 #nginx
 #支持私库
@@ -9,8 +11,8 @@ quay.io/go-skynet/local-ai:latest
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
 ollama/ollama:latest
+mintplexlabs/anythingllm
 
-dustynv/ollama:0.5.1-r36.4.0
 
 #apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
@@ -32,7 +34,7 @@ dustynv/text-generation-webui:r36.2.0
 
 dustynv/llama-vision:r36.3.0
 dustynv/nano_llm:24.7-r36.2.0
-
+dustynv/ollama:0.5.1-r36.4.0
 
 
 
