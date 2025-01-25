@@ -1,6 +1,6 @@
 # test part
-quay.io/go-skynet/local-ai:latest
-quay.io/go-skynet/local-ai:master-aio-gpu-nvidia-cuda-12
+--platform=linux/arm64 quay.io/go-skynet/local-ai:latest
+--platform=linux/arm64 quay.io/go-skynet/local-ai:master-aio-gpu-nvidia-cuda-12
 
 
 #nginx
@@ -11,7 +11,7 @@ quay.io/go-skynet/local-ai:master-aio-gpu-nvidia-cuda-12
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
 ollama/ollama:latest
-mintplexlabs/anythingllm
+--platform=linux/arm64  mintplexlabs/anythingllm
 
 
 #apache/tika:latest-full
