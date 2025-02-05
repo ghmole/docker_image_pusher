@@ -5,7 +5,12 @@ on:
   push:
     branches: [ main ]
   schedule:
-   - cron: 0 4 * * 5
+    #Minute [0,59]
+    #Hour [0,23]
+    #Day of the month [1,31]
+    #Month of the year [1,12]
+    #Day of the week ([0,6] with 0=Sunday)
+   - cron: 0 22 * * *
 
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
