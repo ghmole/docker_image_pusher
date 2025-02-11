@@ -60,8 +60,8 @@ continuumio/anaconda3:2024.02-1
 mysql:5.7.18
 redis:7.2.4
 infiniflow/ragflow_deps:latest
-#infiniflow/ragflow:dev
-#infiniflow/ragflow-base:v2.0
+infiniflow/ragflow:dev
+infiniflow/ragflow-base:v2.0
 
 neo4j:5.22.0
 
@@ -70,8 +70,8 @@ neo4j:5.22.0
 #gerobu/imaginairy:latest
 
 #  searxng
-#docker.io/searxng/searxng:latest
-#docker.io/library/caddy:2-alpine
+docker.io/searxng/searxng:latest
+docker.io/library/caddy:2-alpine
 
 #docker.io/valkey/valkey:8-alpine
 #alpine:3.20
