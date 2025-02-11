@@ -40,6 +40,7 @@ dustynv/llama-vision:r36.3.0
 dustynv/nano_llm:24.7-r36.2.0
 
 dustynv/ollama:main-r36.4.0
+dustynv/ollama:0.5.1-r36.4.0
 dustynv/vllm:0.6.6.post1-r36.4.0
 dustynv/l4t-pytorch:r36.4.0
 
