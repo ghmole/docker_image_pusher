@@ -24,7 +24,7 @@ ghcr.io/open-webui/open-webui:main
 
 #ubuntu
 ubuntu:latest
---platform=linux/arm64 ubuntu:22.04
+#--platform=linux/arm64 ubuntu:22.04
 
 --platform=linux/amd64 ubuntu:22.04
 
@@ -48,7 +48,7 @@ dustynv/l4t-pytorch:r36.4.0
 
 #memgpt/memgpt-server:latest
 
-continuumio/anaconda3:2024.02-1
+#continuumio/anaconda3:2024.02-1
 #containrrr/watchtower
 
 #xiaoyaliu/alist:hostmode
@@ -58,13 +58,13 @@ continuumio/anaconda3:2024.02-1
 #nvidia/cuda
 
 # ragflow images
-mysql:5.7.18
-redis:7.2.4
+#mysql:5.7.18
+#redis:7.2.4
 infiniflow/ragflow_deps:latest
 infiniflow/ragflow:dev
-infiniflow/ragflow-base:v2.0
+#infiniflow/ragflow-base:v2.0
 
-neo4j:5.22.0
+#neo4j:5.22.0
 
 # image related
 #mhmmdlkts/bgremover:latest
