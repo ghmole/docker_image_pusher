@@ -1,6 +1,4 @@
 # test part
-localai/localai:latest
-
 --platform=linux/amd64  milvusdb/milvus
 --platform=linux/amd64  chromadb/chroma
 --platform=linux/arm64  chromadb/chroma
@@ -72,7 +70,7 @@ infiniflow/ragflow:dev
 
 #  searxng
 docker.io/searxng/searxng:latest
-docker.io/library/caddy:2-alpine
+#docker.io/library/caddy:2-alpine
 
 #docker.io/valkey/valkey:8-alpine
 #alpine:3.20
