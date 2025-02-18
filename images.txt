@@ -1,11 +1,11 @@
 # test part
 --platform=linux/amd64  milvusdb/milvus
 --platform=linux/amd64  chromadb/chroma
---platform=linux/arm64  chromadb/chroma
+#--platform=linux/arm64  chromadb/chroma
 --platform=linux/amd64  semitechnologies/weaviate
---platform=linux/arm64  semitechnologies/weaviate
+#--platform=linux/arm64  semitechnologies/weaviate
 --platform=linux/amd64  mintplexlabs/anythingllm
---platform=linux/arm64  mintplexlabs/anythingllm
+#--platform=linux/arm64  mintplexlabs/anythingllm
 #nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
@@ -15,8 +15,6 @@
 # x86 ollama
 ollama/ollama:latest
 
-
-
 #apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
 
@@ -24,23 +22,23 @@ ghcr.io/open-webui/open-webui:main
 ubuntu:latest
 #--platform=linux/arm64 ubuntu:22.04
 
---platform=linux/amd64 ubuntu:22.04
+#--platform=linux/amd64 ubuntu:22.04
 
 
 # nvidia ollama for jetson orin
 
-dustynv/nanodb:r36.4.0 
-dustynv/llama-index:samples-r36.2.0 
-dustynv/jetson-inference:r36.3.0
-dustynv/text-generation-webui:r36.2.0
+#dustynv/nanodb:r36.4.0 
+#dustynv/llama-index:samples-r36.2.0 
+#dustynv/jetson-inference:r36.3.0
+#dustynv/text-generation-webui:r36.2.0
 
-dustynv/llama-vision:r36.3.0
-dustynv/nano_llm:24.7-r36.2.0
+#dustynv/llama-vision:r36.3.0
+#dustynv/nano_llm:24.7-r36.2.0
 
-dustynv/ollama:main-r36.4.0
-dustynv/ollama:0.5.1-r36.4.0
-dustynv/vllm:0.6.6.post1-r36.4.0
-dustynv/l4t-pytorch:r36.4.0
+#dustynv/ollama:main-r36.4.0
+#dustynv/ollama:0.5.1-r36.4.0
+#dustynv/vllm:0.6.6.post1-r36.4.0
+#dustynv/l4t-pytorch:r36.4.0
 
 
 
