@@ -17,6 +17,8 @@ ollama/ollama:latest
 
 #apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
+langgenius/dify-web:main
+
 
 #ubuntu
 ubuntu:latest
