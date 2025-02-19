@@ -82,7 +82,6 @@ langgenius/dify-web:1.0.0-beta.1
 langgenius/dify-sandbox:0.2.10
 langgenius/dify-plugin-daemon:0.0.1-local
 langgenius/qdrant:v1.7.3
-
 #postgres:15-alpine
 #redis:6-alpine
 #ubuntu/squid:latest
@@ -90,12 +89,10 @@ langgenius/qdrant:v1.7.3
 #nginx:latest
 #pingcap/tidb:v8.4.0
 #semitechnologies/weaviate:1.19.0
-
 #pgvector/pgvector:pg16
 #tensorchord/pgvecto-rs:pg16-v0.3.0
 #ghcr.io/chroma-core/chroma:0.5.20
 #quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
-
 #quay.io/coreos/etcd:v3.5.5
 #minio/minio:RELEASE.2023-03-20T20-16-18Z
 #milvusdb/milvus:v2.5.0-beta
