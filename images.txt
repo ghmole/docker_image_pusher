@@ -77,15 +77,15 @@ docker.io/searxng/searxng:latest
 #graphrag test
 
 # compose dify
-langgenius/dify-api:1.0.0-beta.1
-langgenius/dify-web:1.0.0-beta.1
-langgenius/dify-sandbox:0.2.10
-langgenius/dify-plugin-daemon:0.0.1-local
+#langgenius/dify-api:1.0.0-beta.1
+#langgenius/dify-web:1.0.0-beta.1
+#langgenius/dify-sandbox:0.2.10
+#langgenius/dify-plugin-daemon:0.0.1-local
 langgenius/qdrant:v1.7.3
-#postgres:15-alpine
-#redis:6-alpine
-#ubuntu/squid:latest
-#certbot/certbot
+postgres:15-alpine
+redis:6-alpine
+ubuntu/squid:latest
+certbot/certbot
 #nginx:latest
 #pingcap/tidb:v8.4.0
 #semitechnologies/weaviate:1.19.0
