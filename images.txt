@@ -1,6 +1,6 @@
 # test part
  
---platform=linux/amd64  mintplexlabs/anythingllm
+##--platform=linux/amd64  mintplexlabs/anythingllm
 #--platform=linux/arm64  mintplexlabs/anythingllm
 #nginx
 #支持私库
@@ -9,15 +9,15 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
-ollama/ollama:latest
+##ollama/ollama:latest
 
 #apache/tika:latest-full
-ghcr.io/open-webui/open-webui:main
+##ghcr.io/open-webui/open-webui:main
 #langgenius/dify-web:main
 
 
 #ubuntu
-ubuntu:latest
+##ubuntu:latest
 #--platform=linux/arm64 ubuntu:22.04
 
 #--platform=linux/amd64 ubuntu:22.04
@@ -25,7 +25,7 @@ ubuntu:latest
 
 # nvidia ollama for jetson orin
 
-#dustynv/nanodb:r36.4.0 
+##dustynv/nanodb:r36.4.0 
 #dustynv/llama-index:samples-r36.2.0 
 #dustynv/jetson-inference:r36.3.0
 #dustynv/text-generation-webui:r36.2.0
@@ -33,9 +33,9 @@ ubuntu:latest
 #dustynv/llama-vision:r36.3.0
 #dustynv/nano_llm:24.7-r36.2.0
 
-#dustynv/ollama:main-r36.4.0
-#dustynv/ollama:0.5.1-r36.4.0
-#dustynv/vllm:0.6.6.post1-r36.4.0
+##dustynv/ollama:main-r36.4.0
+##dustynv/ollama:0.5.1-r36.4.0
+##dustynv/vllm:0.6.6.post1-r36.4.0
 #dustynv/l4t-pytorch:r36.4.0
 
 
@@ -54,8 +54,8 @@ ubuntu:latest
 # ragflow images
 #mysql:5.7.18
 #redis:7.2.4
-infiniflow/ragflow_deps:latest
-infiniflow/ragflow:dev
+##infiniflow/ragflow_deps:latest
+##infiniflow/ragflow:dev
 #infiniflow/ragflow-base:v2.0
 
 #neo4j:5.22.0
@@ -83,26 +83,26 @@ langgenius/dify-sandbox:0.2.10
 langgenius/dify-plugin-daemon:0.0.1-local
 langgenius/qdrant:v1.7.3
 
-postgres:15-alpine
-redis:6-alpine
-ubuntu/squid:latest
-certbot/certbot
-nginx:latest
-pingcap/tidb:v8.4.0
-semitechnologies/weaviate:1.19.0
+#postgres:15-alpine
+#redis:6-alpine
+#ubuntu/squid:latest
+#certbot/certbot
+#nginx:latest
+#pingcap/tidb:v8.4.0
+#semitechnologies/weaviate:1.19.0
 
-pgvector/pgvector:pg16
-tensorchord/pgvecto-rs:pg16-v0.3.0
-ghcr.io/chroma-core/chroma:0.5.20
-quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
+#pgvector/pgvector:pg16
+#tensorchord/pgvecto-rs:pg16-v0.3.0
+#ghcr.io/chroma-core/chroma:0.5.20
+#quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
 
-quay.io/coreos/etcd:v3.5.5
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-milvusdb/milvus:v2.5.0-beta
-myscale/myscaledb:1.6.4
-docker.elastic.co/elasticsearch/elasticsearch:8.14.3
-docker.elastic.co/kibana/kibana:8.14.3
-downloads.unstructured.io/unstructured-io/unstructured-api:latest
-container-registry.oracle.com/database/free:latest
-opensearchproject/opensearch:latest
-opensearchproject/opensearch-dashboards:latest
+#quay.io/coreos/etcd:v3.5.5
+#minio/minio:RELEASE.2023-03-20T20-16-18Z
+#milvusdb/milvus:v2.5.0-beta
+#myscale/myscaledb:1.6.4
+#docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+#docker.elastic.co/kibana/kibana:8.14.3
+#downloads.unstructured.io/unstructured-io/unstructured-api:latest
+#container-registry.oracle.com/database/free:latest
+#opensearchproject/opensearch:latest
+#opensearchproject/opensearch-dashboards:latest
