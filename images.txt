@@ -1,6 +1,6 @@
 # test part
 
-##--platform=linux/amd64  mintplexlabs/anythingllm
+--platform=linux/amd64  mintplexlabs/anythingllm
 #--platform=linux/arm64  mintplexlabs/anythingllm
 #nginx
 #支持私库
@@ -9,14 +9,14 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
-##ollama/ollama:latest
+ollama/ollama:latest
 
 #apache/tika:latest-full
-##ghcr.io/open-webui/open-webui:main
+ghcr.io/open-webui/open-webui:main
 #langgenius/dify-web:main
 
 #ubuntu
-##ubuntu:latest
+ubuntu:latest
 #--platform=linux/arm64 ubuntu:22.04
 
 #--platform=linux/amd64 ubuntu:22.04
