@@ -66,8 +66,14 @@ dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #  searxng
 #docker.io/searxng/searxng:latest
 #docker.io/library/caddy:2-alpine
-
 #docker.io/valkey/valkey:8-alpine
+
+docker.io/searxng/searxng:latest
+searxng/searxng:2025.3.7-67a8b66f7
+searxng/searxng:2025.3.2-8984d7ae0
+docker.io/library/caddy:2-alpine
+docker.io/valkey/valkey:8-alpine
+
 #alpine:3.20
 
 #graphrag test
@@ -99,6 +105,3 @@ dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #container-registry.oracle.com/database/free:latest
 #opensearchproject/opensearch:latest
 #opensearchproject/opensearch-dashboards:latest
-searxng/searxng
-searxng/searxng:2025.3.7-67a8b66f7
-searxng/searxng:2025.3.2-8984d7ae0
