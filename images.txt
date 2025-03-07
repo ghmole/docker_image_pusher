@@ -13,6 +13,9 @@ ollama/ollama:latest
 
 #apache/tika:latest-full
 ghcr.io/open-webui/open-webui:main
+ghcr.io/open-webui/open-webui:0.5.20-ollama
+ghcr.io/open-webui/open-webui:0.5.19-ollama
+ghcr.io/open-webui/open-webui:0.5.18-ollama
 #langgenius/dify-web:main
 
 #ubuntu
@@ -97,3 +100,5 @@ dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #opensearchproject/opensearch:latest
 #opensearchproject/opensearch-dashboards:latest
 searxng/searxng
+searxng/searxng:2025.3.7-67a8b66f7
+searxng/searxng:2025.3.2-8984d7ae0
