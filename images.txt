@@ -109,3 +109,4 @@ docker.io/valkey/valkey:8-alpine
 ###########
 
 python:3.12-slim
+supabase/logflare:1.12.5
