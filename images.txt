@@ -115,8 +115,8 @@ supabase/studio:20250224-d10db0f
 kong:2.8.1
 supabase/gotrue:v2.170.0
 postgrest/postgrest:v12.2.8
-upabase/realtime:v2.34.40
-upabase/storage-api:v1.19.3
+supabase/realtime:v2.34.40
+supabase/storage-api:v1.19.3
 darthsim/imgproxy:v3.8.0
 supabase/postgres-meta:v0.86.1
 supabase/edge-runtime:v1.67.2
