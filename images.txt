@@ -64,7 +64,7 @@ dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #gerobu/imaginairy:latest
 
 #  searxng
-ocker.io/searxng/searxng:latest
+docker.io/searxng/searxng:latest
 #searxng/searxng:2025.3.7-67a8b66f7
 #searxng/searxng:2025.3.2-8984d7ae0
 #docker.io/library/caddy:2-alpine
