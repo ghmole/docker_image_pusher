@@ -38,7 +38,7 @@ ubuntu:latest
 ##dustynv/vllm:0.6.6.post1-r36.4.0
 #dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #dustynv/l4t-pytorch:r36.4.0
-dustynv/sglang:r36.4.0
+#dustynv/sglang:r36.4.0
 
 #memgpt/memgpt-server:latest
 
@@ -109,19 +109,21 @@ opensearchproject/opensearch:latest
 
 ###########
 
-python:3.12-slim
-supabase/logflare:1.12.5
+#python:3.12-slim
+#supabase/logflare:1.12.5
 
-supabase/studio:20250224-d10db0f
-kong:2.8.1
-supabase/gotrue:v2.170.0
-postgrest/postgrest:v12.2.8
-supabase/realtime:v2.34.40
-supabase/storage-api:v1.19.3
-darthsim/imgproxy:v3.8.0
-supabase/postgres-meta:v0.86.1
-supabase/edge-runtime:v1.67.2
-supabase/logflare:1.12.5
-supabase/postgres:15.8.1.049
-timberio/vector:0.28.1-alpine
-supabase/supavisor:2.4.12
+#supabase/studio:20250224-d10db0f
+#kong:2.8.1
+#supabase/gotrue:v2.170.0
+#postgrest/postgrest:v12.2.8
+#supabase/realtime:v2.34.40
+#supabase/storage-api:v1.19.3
+#darthsim/imgproxy:v3.8.0
+#supabase/postgres-meta:v0.86.1
+#supabase/edge-runtime:v1.67.2
+#supabase/logflare:1.12.5
+#supabase/postgres:15.8.1.049
+#timberio/vector:0.28.1-alpine
+#supabase/supavisor:2.4.12
+
+forceless/pptagent
