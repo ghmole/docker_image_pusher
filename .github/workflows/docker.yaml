@@ -47,10 +47,12 @@ jobs:
         
         sudo apt-mark showhold
 
-        sudo -E apt-get -qq -y purge  ghc* zulu* llvm* firefox google* dotnet* openjdk*  mysql* php* mongodb*  moby* snapd*  || true       
-        
-        sudo -E apt-get -qq -y purge cpp*  apache2* ant*  binutils* bison clang* flex g++* gcc* gfortran* mercurial* microsoft-edge-stable
-        sudo -E apt-get -qq -y purge    postgresql*  ruby* vim*
+        sudo -E apt-get -qq -y purge   ghc* zulu* llvm* firefox google* dotnet* openjdk*  || true       
+        sudo -E apt-get -qq -y purge   mysql* php* mongodb*  moby* snapd*  || true 
+        sudo -E apt-get -qq -y purge   cpp*  apache2* ant*  binutils* bison   || true   
+        sudo -E apt-get -qq -y purge   clang* flex g++* gcc* gfortran*   || true   
+        sudo -E apt-get -qq -y purge   mercurial* microsoft-edge-stable  || true   
+        sudo -E apt-get -qq -y purge   postgresql*  ruby* vim*  || true   
 
 
 
