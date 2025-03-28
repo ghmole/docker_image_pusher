@@ -20,6 +20,7 @@ ghcr.io/open-webui/open-webui:main
 
 #ubuntu
 ubuntu:latest
+ubuntu:24.04
 #ubuntu:22.04
 --platform=linux/arm64/v8 ubuntu:22.04
 
@@ -126,4 +127,4 @@ opensearchproject/opensearch:latest
 #timberio/vector:0.28.1-alpine
 #supabase/supavisor:2.4.12
 
-forceless/pptagent:latest
+#forceless/pptagent:latest
