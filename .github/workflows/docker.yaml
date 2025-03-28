@@ -64,6 +64,8 @@ jobs:
         echo "=============================================================================="
         sudo dpkg-query -Wf '${Installed-size}\t${Package}\n' | column -t       
         echo "=============================================================================="
+        python -V
+        echo "=============================================================================="
         sudo chown -R $USER /usr/local/lib/python3.10/dist-packages/
     # 增加可用磁盘空间
     #- name: Maximize build space
