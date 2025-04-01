@@ -20,9 +20,9 @@ ghcr.io/open-webui/open-webui:main
 
 #ubuntu
 ubuntu:latest
-ubuntu:24.04
-#ubuntu:22.04
---platform=linux/arm64/v8 ubuntu:22.04
+#ubuntu:24.04
+ubuntu:22.04
+#--platform=linux/arm64/v8 ubuntu:22.04
 
 #--platform=linux/amd64 ubuntu:22.04
 # nvidia ollama for jetson orin
