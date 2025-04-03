@@ -12,7 +12,9 @@
 ollama/ollama:latest
 
 #apache/tika:latest-full
-ghcr.io/open-webui/open-webui:main
+#ghcr.io/open-webui/open-webui:main
+
+ghcr.io/open-webui/open-webui:0.6.0-ollama
 #ghcr.io/open-webui/open-webui:0.5.20-ollama
 #ghcr.io/open-webui/open-webui:0.5.16-ollama
 #ghcr.io/open-webui/open-webui:0.5.12-ollama
