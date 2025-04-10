@@ -9,13 +9,15 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
-ollama/ollama:0.6.5
+#ollama/ollama:0.6.5
 
 #apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
-ghcr.io/open-webui/open-webui:0.6.2-ollama
+#ghcr.io/open-webui/open-webui:0.6.2-ollama
 
 #ubuntu
+
+debian:11-slim
 ubuntu:latest
 #ubuntu:24.04
 #ubuntu:22.04
@@ -135,4 +137,4 @@ nginx:latest
 #golang:1.24
 #rust:1-slim
 #bitnami/redis:7.2.5
-redis:alpine
+#redis:alpine
