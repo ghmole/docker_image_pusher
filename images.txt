@@ -138,3 +138,6 @@ nginx:latest
 #rust:1-slim
 #bitnami/redis:7.2.5
 #redis:alpine
+
+# mcp servers
+isokoliuk/mcp-searxng
