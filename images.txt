@@ -38,7 +38,9 @@ ubuntu:latest
 ##dustynv/vllm:0.6.6.post1-r36.4.0
 #dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #dustynv/vllm:0.8.3-r36.4.0-cu128-24.04
+
 dustynv/vllm:0.8.5-r36.4.0-cu128-24.04
+
 #dustynv/l4t-pytorch:r36.4.0
 #dustynv/sglang:r36.4.0
 
