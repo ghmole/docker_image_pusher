@@ -132,7 +132,7 @@ nginx:latest
 #timberio/vector:0.28.1-alpine
 #supabase/supavisor:2.4.12
 
-#forceless/pptagent:latest
+forceless/pptagent:latest
 
 
 # firecrawl
