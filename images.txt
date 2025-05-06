@@ -9,11 +9,13 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
-#ollama/ollama:0.6.5
+
+ollama/ollama:0.6.8
 
 #apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
-#ghcr.io/open-webui/open-webui:0.6.2-ollama
+
+ghcr.io/open-webui/open-webui:0.6.6-ollama
 
 #ubuntu
 
