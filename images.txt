@@ -10,16 +10,16 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
 
-ollama/ollama:0.6.8
+#ollama/ollama:0.6.8
 
 #apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
 
-ghcr.io/open-webui/open-webui:0.6.6-ollama
+ghcr.io/open-webui/open-webui:0.6.7-ollama
 
 #ubuntu
 
-debian:11-slim
+#debian:11-slim
 ubuntu:latest
 #ubuntu:24.04
 #ubuntu:22.04
@@ -106,7 +106,7 @@ quay.io/oceanbase/oceanbase-ce:4.3.5.1-101000042025031818
 #milvusdb/milvus:v2.5.0-beta
 #opensearchproject/opensearch:latest
 #opensearchproject/opensearch-dashboards:latest
-opengauss/opengauss:7.0.0-RC1
+#opengauss/opengauss:7.0.0-RC1
 #myscale/myscaledb:1.6.4
 #docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 #docker.elastic.co/kibana/kibana:8.14.3
@@ -118,11 +118,7 @@ downloads.unstructured.io/unstructured-io/unstructured-api:latest
 #node:20-alpine3.20
 
 
-
-
-
-
-#opengauss/opengauss:7.0.0-RC1
+ 
 
 ########### 
 
