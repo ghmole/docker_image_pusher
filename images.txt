@@ -10,12 +10,13 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 # x86 ollama
 
-#ollama/ollama:0.6.8
+ollama/ollama:0.7.0
+ghcr.io/open-webui/open-webui:0.6.9-ollama
 
 #apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
 
-ghcr.io/open-webui/open-webui:0.6.7-ollama
+
 
 #ubuntu
 
@@ -135,7 +136,7 @@ downloads.unstructured.io/unstructured-io/unstructured-api:latest
 #timberio/vector:0.28.1-alpine
 #supabase/supavisor:2.4.12
 
-forceless/pptagent:latest
+#forceless/pptagent:latest
 
 
 # firecrawl
@@ -145,6 +146,8 @@ forceless/pptagent:latest
 #rust:1-slim
 #bitnami/redis:7.2.5
 #redis:alpine
+mcp/firecrawl:latest
+ericwong/firecrawl:1.4.1
 
 # mcp servers
 #isokoliuk/mcp-searxng
