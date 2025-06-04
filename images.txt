@@ -73,10 +73,11 @@ ubuntu:latest
 
 #  searxng
 #docker.io/searxng/searxng:latest
-searxng/searxng:2025.6.3-b73ac81
-searxng/searxng:2025.5.22-d29cf64
-searxng/searxng:2025.5.5-0315988f5
-searxng/searxng:2025.5.4-19b116f1d
+searxng/searxng:2025.6.3-eb36de8
+#searxng/searxng:2025.6.3-b73ac81
+#searxng/searxng:2025.5.22-d29cf64
+#searxng/searxng:2025.5.5-0315988f5
+#searxng/searxng:2025.5.4-19b116f1d
 #searxng/searxng:2025.3.7-67a8b66f7
 #searxng/searxng:2025.3.2-8984d7ae0
 #docker.io/library/caddy:2-alpine
@@ -141,7 +142,7 @@ searxng/searxng:2025.5.4-19b116f1d
 #timberio/vector:0.28.1-alpine
 #supabase/supavisor:2.4.12
 
-forceless/pptagent:latest
+#forceless/pptagent:latest
 
 
 # firecrawl
