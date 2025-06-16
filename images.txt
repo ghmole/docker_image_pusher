@@ -158,3 +158,6 @@ ghcr.io/mendableai/playwright-service:latest
 
 # mcp servers
 #isokoliuk/mcp-searxng
+
+# crawl4ai
+unclecode/crawl4ai:0.6.0-rN 
