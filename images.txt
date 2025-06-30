@@ -82,7 +82,8 @@ ubuntu:latest
 #searxng/searxng:2025.3.2-8984d7ae0
 #docker.io/library/caddy:2-alpine
 #docker.io/valkey/valkey:8-alpine
-
+ghcr.io/searxng/base:searxng-builder 
+ghcr.io/searxng/base:searxng 
 #alpine:3.20
 
 #graphrag test
