@@ -11,14 +11,14 @@
 # x86 ollama
 
 #ollama/ollama:0.9.0
-ghcr.io/open-webui/open-webui:0.6.13-ollama
+#ghcr.io/open-webui/open-webui:0.6.13-ollama
 
 #apache/tika:latest-full
 #ghcr.io/open-webui/open-webui:main
 
 
 
-#ubuntu
+########ubuntu
 
 #debian:11-slim
 ubuntu:latest
@@ -27,7 +27,7 @@ ubuntu:latest
 #--platform=linux/arm64/v8 ubuntu:22.04
 
 #--platform=linux/amd64 ubuntu:22.04
-# nvidia ollama for jetson orin
+######## nvidia ollama for jetson orin
 ##dustynv/nanodb:r36.4.0 
 #dustynv/llama-index:samples-r36.2.0 
 #dustynv/jetson-inference:r36.3.0
@@ -38,13 +38,13 @@ ubuntu:latest
 
 ##dustynv/ollama:main-r36.4.0
 ##dustynv/ollama:0.5.1-r36.4.0
-dustynv/ollama:r36.4-cu129-24.04
+#dustynv/ollama:r36.4-cu129-24.04
 
 ##dustynv/vllm:0.6.6.post1-r36.4.0
 #dustynv/vllm:0.7.4-r36.4.0-cu128-24.04
 #dustynv/vllm:0.8.3-r36.4.0-cu128-24.04
 #dustynv/vllm:0.8.5-r36.4.0-cu128-24.04
-dustynv/vllm:r36.4-cu129-24.04
+#dustynv/vllm:r36.4-cu129-24.04
 
 #dustynv/l4t-pytorch:r36.4.0
 #dustynv/sglang:r36.4.0
@@ -60,7 +60,7 @@ dustynv/vllm:r36.4-cu129-24.04
 #pytorch/pytorch:1.9.0-cuda10.2-cudnn7-devel
 #nvidia/cuda
 
-# ragflow images
+######## ragflow images
 #mysql:5.7.18
 #redis:7.2.4
 ##infiniflow/ragflow_deps:latest
@@ -69,11 +69,11 @@ dustynv/vllm:r36.4-cu129-24.04
 
 #neo4j:5.22.0
 
-# image related
+######## image related
 #mhmmdlkts/bgremover:latest
 #gerobu/imaginairy:latest
 
-#  searxng
+########  searxng
 #docker.io/searxng/searxng:latest
 #searxng/searxng:2025.6.3-eb36de8
 #searxng/searxng:2025.6.3-b73ac81
@@ -84,11 +84,11 @@ dustynv/vllm:r36.4-cu129-24.04
 #searxng/searxng:2025.3.2-8984d7ae0
 #docker.io/library/caddy:2-alpine
 #docker.io/valkey/valkey:8-alpine
-ghcr.io/searxng/base:searxng-builder 
-ghcr.io/searxng/base:searxng 
+#ghcr.io/searxng/base:searxng-builder 
+#ghcr.io/searxng/base:searxng 
 #alpine:3.20
 
-#graphrag test
+########graphrag test
 
 ####### compose dify ###--------------------------------------
 #langgenius/dify-api:1.4.1
@@ -156,12 +156,16 @@ node:22.1.0
 #bitnami/redis:7.2.5
 #redis:alpine
 mcp/firecrawl:latest
-ericwong/firecrawl:1.4.1
+#ericwong/firecrawl:1.4.1
 ghcr.io/mendableai/playwright-service:latest
 
-# mcp servers
+######## mcp servers
 #isokoliuk/mcp-searxng
 
-# crawl4ai
-unclecode/crawl4ai:0.6.0-r2
+######## crawl4ai
+# unclecode/crawl4ai:0.6.0-r2
 unclecode/crawl4ai:latest
+
+
+## deepsite
+195658/deepsite:latest
