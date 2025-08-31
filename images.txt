@@ -163,7 +163,7 @@ node:18-alpine
 #timberio/vector:0.28.1-alpine
 
 ############ ppt
-#forceless/pptagent:latest
+forceless/pptagent:latest
 
 # firecrawl
 #golang:1.24
