@@ -163,6 +163,7 @@ ubuntu:latest
 #timberio/vector:0.28.1-alpine
 
 ############ ppt
+ghcr.io/presenton/presenton:latest
 forceless/pptagent:latest
 
 # firecrawl
