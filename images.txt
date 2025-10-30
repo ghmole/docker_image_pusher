@@ -116,7 +116,7 @@ ubuntu:latest
 langgenius/dify-api:latest
 langgenius/dify-web:latest
 langgenius/dify-sandbox:latest
-langgenius/dify-plugin-daemon:latest
+#langgenius/dify-plugin-daemon:latest
 langgenius/qdrant:latest
 
 #ubuntu/squid:latest
