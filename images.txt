@@ -113,19 +113,16 @@ ubuntu:latest
 ########graphrag test
 
 ####### compose dify ###--------------------------------------
-#langgenius/dify-api:1.4.1
-#langgenius/dify-web:1.4.1
+langgenius/dify-api:latest
+langgenius/dify-web:latest
+langgenius/dify-sandbox:latest
+langgenius/dify-plugin-daemon:latest
+langgenius/qdrant:latest
 
-
-#langgenius/dify-sandbox:0.2.12
-
-#langgenius/dify-plugin-daemon:0.1.1-local
 #ubuntu/squid:latest
 #nginx:latest
 #certbot/certbot
 #semitechnologies/weaviate:1.19.0
-#langgenius/qdrant:v1.7.3
-
 
 # get image from https://www.vastdata.com.cn/
 
@@ -139,10 +136,7 @@ ubuntu:latest
 #docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 #docker.elastic.co/kibana/kibana:8.14.3
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
-
 #pingcap/tidb:v8.4.0
-
-
 
 ########### supabase
 #python:3.12-slim
@@ -171,16 +165,19 @@ forceless/pptagent:latest
 #rust:1-slim
 #bitnami/redis:7.2.5
 #redis:alpine
-#mcp/firecrawl:latest
+mcp/firecrawl:latest
 #ericwong/firecrawl:1.4.1
-#ghcr.io/mendableai/playwright-service:latest
+ghcr.io/mendableai/playwright-service:latest
 
 ######## mcp servers
-#isokoliuk/mcp-searxng
+isokoliuk/mcp-searxng
 
 ######## crawl4ai
 # unclecode/crawl4ai:0.6.0-r2
-# unclecode/crawl4ai:latest
+unclecode/crawl4ai:latest
+
+#kestra
+kestra/kestra:latest server
 
 
 ## deepsite
