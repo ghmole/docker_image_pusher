@@ -167,7 +167,7 @@ forceless/pptagent:latest
 #redis:alpine
 mcp/firecrawl:latest
 #ericwong/firecrawl:1.4.1
-ghcr.io/mendableai/playwright-service:latest
+#ghcr.io/mendableai/playwright-service:latest
 
 ######## mcp servers
 isokoliuk/mcp-searxng
