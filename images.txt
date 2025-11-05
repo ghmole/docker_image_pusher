@@ -177,7 +177,7 @@ isokoliuk/mcp-searxng
 unclecode/crawl4ai:latest
 
 #kestra
-kestra/kestra:latest server
+#kestra/kestra:latest server
 
 
 ## deepsite
