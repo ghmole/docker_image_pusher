@@ -182,3 +182,5 @@ kestra/kestra:latest
 
 ## deepsite
 #195658/deepsite:latest
+
+ghcr.io/armbian/docker-armbian-build:armbian-ubuntu-noble-latest
