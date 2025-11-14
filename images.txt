@@ -156,9 +156,7 @@ langgenius/qdrant:latest
 #supabase/supavisor:2.4.12
 #timberio/vector:0.28.1-alpine
 
-############ ppt
-ghcr.io/presenton/presenton:latest
-forceless/pptagent:latest
+
 
 # firecrawl
 #golang:1.24
@@ -184,3 +182,8 @@ kestra/kestra:latest
 #195658/deepsite:latest
 
 ghcr.io/armbian/docker-armbian-build:armbian-ubuntu-noble-latest
+
+############ ppt
+ghcr.io/presenton/presenton:latest
+bytez/forceless_pptagent-coder-3b:latest
+forceless/pptagent:latest
