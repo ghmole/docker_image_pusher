@@ -163,6 +163,7 @@ langgenius/qdrant:latest
 #rust:1-slim
 #bitnami/redis:8.0.3
 #redis:alpine
+postgres:17
 mcp/firecrawl:latest
 #ericwong/firecrawl:1.4.1
 #ghcr.io/mendableai/playwright-service:latest
