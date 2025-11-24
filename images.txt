@@ -161,7 +161,7 @@ langgenius/qdrant:latest
 # firecrawl
 #golang:1.24
 #rust:1-slim
-#bitnami/redis:7.2.5
+#bitnami/redis:8.0.3
 #redis:alpine
 mcp/firecrawl:latest
 #ericwong/firecrawl:1.4.1
@@ -186,4 +186,4 @@ ghcr.io/armbian/docker-armbian-build:armbian-ubuntu-noble-latest
 ############ ppt
 ghcr.io/presenton/presenton:latest
 bytez/forceless_pptagent-coder-3b:latest
-forceless/pptagent:latest
+#forceless/pptagent:latest
