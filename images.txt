@@ -163,7 +163,7 @@ langgenius/qdrant:latest
 #rust:1-slim
 #bitnami/redis:8.0.3
 #redis:alpine
-postgres:17
+#postgres:17
 mcp/firecrawl:latest
 #ericwong/firecrawl:1.4.1
 #ghcr.io/mendableai/playwright-service:latest
@@ -188,3 +188,12 @@ ghcr.io/armbian/docker-armbian-build:armbian-ubuntu-noble-latest
 ghcr.io/presenton/presenton:latest
 bytez/forceless_pptagent-coder-3b:latest
 #forceless/pptagent:latest
+
+# langfuse
+docker.io/clickhouse/clickhouse-server:24.3
+docker.io/minio/minio
+docker.io/redis:7
+docker.io/clickhouse/clickhouse-server:25.8
+docker.io/redis:7.2.4
+docker.io/langfuse/langfuse-worker:3
+docker.io/langfuse/langfuse:3
