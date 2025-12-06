@@ -70,6 +70,7 @@ ubuntu:latest
 # node:18-alpine 
 #node:22-slim
 #node:18-slim
+node:14.21.3-alpine
 
 ######## database 
 #mysql:5.7.18
