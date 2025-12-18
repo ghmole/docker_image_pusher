@@ -199,3 +199,6 @@ docker.io/redis:7
 docker.io/redis:7.2.4
 docker.io/langfuse/langfuse-worker:3
 docker.io/langfuse/langfuse:3
+
+#mineru
+mineru:latest
